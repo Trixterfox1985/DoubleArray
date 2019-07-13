@@ -41,7 +41,7 @@ public class DoubleArray {
     public void array_counter (int [][] array, int sum) {
 
         this.summary = sum;
-        System.out.println("Виведення даних масиву за індексацією - яка в парі із іншими елементами у сумі дає значення -> " + sum);
+        System.out.println("Виведення даних масиву за індексацією - яка в парі із іншими елементами у сумі дає значення " + sum);
 
         for (int a1 = 0; a1 < array.length; a1++) {
             for (int b1 = 0; b1 < array[a1].length; b1++) {
